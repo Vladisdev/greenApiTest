@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1140px;
+
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px 20px;
+
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #9b9b9b;
+
+  font-size: 13px;
+}

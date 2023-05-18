@@ -15,7 +15,6 @@ export const chatsSlice = createSlice({
     }),
     selectChat: ((state, action) => {
       const foundItem = state._chats.find(item => item.value === action.payload);
-
       state.activeChat = foundItem.value;
     })
   }

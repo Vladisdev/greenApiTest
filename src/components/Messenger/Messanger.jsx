@@ -1,7 +1,10 @@
 import styles from './Messenger.module.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { Message } from '../Message/Message';
+
 import { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { Message } from '../Message/Message';
+
 import { sendMessage } from '../../hooks/sendMessage.js';
 import { addMessage } from '../../redux/slices/messagesSlice.js';
 import { getNotification } from '../../hooks/getOtherMessage.js';
